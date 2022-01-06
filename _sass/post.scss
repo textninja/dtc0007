@@ -10,6 +10,21 @@
 }
 
 
+
+hr {
+    margin-top: 74px;
+    color: #e9f1d6;
+    display: block;
+    height: 10px;
+    border-left: 0;
+    /*border: solid currentColor 2px;*/
+    border: 0;
+    border-right: 0;
+    margin-right: -4px;
+    margin-bottom: -3em;
+    background: linear-gradient(45deg, #3eb1a9 0%, #e13636 100%);
+}
+
 body > header {
     height: 20px;
 }
