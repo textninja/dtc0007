@@ -14,7 +14,7 @@ nav {
 
         position: absolute;
         right: 10px;
-        top: 10px;
+        top: 15px;
         margin: 0; padding: 0;
 
         &::before,
@@ -48,20 +48,29 @@ nav {
         box-sizing: border-box;
 
         h2 {
-            left: -200%;
         }
 
         ul {
             display: block;
             position: static;
+            font-size: 24pt;
+            color: white;
+            padding: 50px;
+            padding-top: 0;
+            line-height: 2em;
+            
+            a {
+                text-decoration: none;
+                color: white;
+            }
         }
 
         + #close-nav {
             position: absolute;
-            top: 10px; right: 10px;
+            top: 15px; right: 10px;
             width: $hamburger-size;
             height: $hamburger-size;
-            background-color: red;
+            background-color: transparent;
         }
     }    
    

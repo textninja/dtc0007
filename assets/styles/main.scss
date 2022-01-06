@@ -26,6 +26,7 @@ body {
     margin: 15px;
     margin-top: 0;
     hyphens: auto;
+    max-width: 900px;
 }
 
 header {
@@ -49,6 +50,7 @@ a {
     top: 10px; left: 15px;
     font-size: 18pt;
     font-family: monospace;
+    font-weight: bold; 
 }
 
 @import "post";
