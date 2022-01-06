@@ -33,17 +33,37 @@ clear of web fonts, because I want to keep the load time snappy.
 
 ## What a blog post needs
 
-Today's goal is to write "complete" blog post. So what is that? To really cover
+The stated goal was to write a "complete" blog post. So what is that? To really cover
 all the bases, I feel I need to include a number of things in a blog post.
 
-1. Good writing. Subjective, and I don't feel I'm there yet, but I expect this
-   to improve steadily with time. That's one muscle that is surely being
-   exercised when I blog.
+1. Good writing. This is rather subjective, and I don't feel I'm there yet, but
+   I expect to improve steadily with time. That's one muscle that is surely
+   being exercised when I blog.
 2. Good content. Not only do I need to write well, but I need to pick a subject
    worth writing about, and actually have something to say.
 3. Pretty pictures. I'm no artist. But even if I were to dabble here, my blog
-   could get much more visually interesting
+   coul become much more visually interesting.
 4. Interactivity where needed. I need to take full advantage of the features of
    the medium instead of just working around its challenges. A web post can be
    so much more than a digital piece of paper with writing on it.
 
+What a blog post doesn't need is a lot of filler text and exposition. I'm guilty
+of overdoing both.
+
+## How Jekyll helped
+
+The main boon for me was Jekyll's support for SCSS and Markdown, and the ability
+to define includes and keep the codebase better organized than with a plain HTML
+rough draft. Staying organized is great, and I suppose if I wanted to I could
+reuse any template I create via Jekyll. I doubt I'll want to though. I like
+building templates.
+
+In terms of magic folders, I used _includes, _layouts, _posts, _data, and _sass.
+None of these were used in an exotic or remarkable way. I went a very conventional
+route.
+
+## Conclusion
+
+I feel I am not giving Jekyll the attention it deserves. I am happier with the
+overall quality of this feature demonstration, but once again, I'm running into
+the limit of what I can do in a day sooner than I'd like.

@@ -1,9 +1,22 @@
+@mixin fancy-first {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: block;
+    font-size: 4.5em;
+    float: left;
+    margin-top: 0.3em;
+    margin-bottom: 10px;
+    margin-right: 0.1em;
+    padding: 0;
+    color: white;
+}
+
+
 body > header {
     height: 20px;
 }
 
 .challenge-info {
-    margin-bottom: -1em;
+    margin-bottom: 0;
     margin-top: 5em;
     font-size: 1em;
     color: #808080;
@@ -31,9 +44,9 @@ article {
     color: #c1c1c1;
 
     h2 {
-        font-size: 1.3em;
+        font-size: 1em;
         margin-top: 1.4em;
-        font-family:  Georgia, 'Times New Roman', Times, serif;;
+        font-family:  Georgia, 'Times New Roman', Times, serif;
         color: white;
     }
     
@@ -49,18 +62,16 @@ article {
             margin-top: 1.5em;
 
             &::first-letter {
-                font-family: Georgia, 'Times New Roman', Times, serif;
-                display: block;
-                font-size: 4.5em;
-                float: left;
-                margin-top: 0.3em;
-                margin-bottom: 10px;
-                margin-right: 0.1em;
-                padding: 0;
-                color: white;
+              @include fancy-first;
             }            
         }
 
         line-height: 1.4em;
     }    
+
+    // h2 + p {
+    //     &::first-letter {
+    //         @include fancy-first;
+    //     }
+    // }
 }
