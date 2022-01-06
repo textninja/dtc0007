@@ -1,0 +1,36 @@
+nav {
+    display: block;
+
+    $hamburger-size: 20px;
+
+    &::before {
+        content: " ";
+
+        display: block;
+        width: $hamburger-size; 
+        height: $hamburger-size;
+        background-color: blue;
+    }
+
+    ul {
+        display: none;
+    }
+
+    &:focus-within {
+        position: fixed; top: 0; left: 0; bottom: 0; right: 0;
+        background-color: var(--bg);
+
+        ul {
+            display: block;
+        }
+
+        + #close-nav {
+            position: fixed;
+            top: 0; left: 0;
+            width: $hamburger-size;
+            height: $hamburger-size;
+            background-color: red;
+        }
+    }    
+   
+}

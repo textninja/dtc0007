@@ -1,7 +1,8 @@
-<nav>
+<nav tabindex="1">
 <ul>
 {% for link in site.data.nav %}
     <li><a href="{{link.href}}">{{link.name}}</a></li>
 {% endfor %}
 </ul>
 </nav>
+<div id="close-nav" tabindex="-1"></div>
