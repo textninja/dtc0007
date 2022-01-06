@@ -1,10 +1,10 @@
 ---
-title: "Daily Tech Challenge #7 - Build a complete blog post with Jekyll"
+challenge-number: 7
+title: Build a complete blog post with Jekyll
+author: Joe Taylor
+date: 2022-01-05
 layout: post
 ---
-
-# Daily Tech Challenge #7
-## Build a complete blog post with Jekyll
 
 Today, we're going meta. Time is at a premium, so instead of doing a tech
 challenge *and* a blog post, my blog post *is* my tech challenge, which makes

@@ -1,0 +1,34 @@
+body > header {
+    height: 20px;
+    background-color: green;
+}
+
+.challenge-info {
+    margin-bottom: -0.2em;
+    margin-top: 1.5em;
+    font-size: 1em;
+    color: #808080;
+}
+
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20pt;
+    max-width: 250px;
+    line-height: 1.3em;
+}
+
+.post-info {
+    color: var(--dim);
+    font-style: italic;
+    font-size: 1em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+.post-info + p {
+    font-size: 1.2em;
+}
+
+article {
+    color: var(--dim);
+}

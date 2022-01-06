@@ -6,7 +6,8 @@
 
 :root {
     --bg: #000;
-    --fg : #fff;
+    --fg : #c0c0c0;
+    --dim: #a0a0a0;
 }
 
 @mixin margin-reset {
@@ -39,3 +40,5 @@ p {
 a {
     color: var(--fg);
 }
+
+@import "post";

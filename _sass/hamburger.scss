@@ -3,17 +3,18 @@ nav {
 
     $hamburger-size: 20px;
 
-    &::before {
-        content: " ";
-
+    h2 {
         display: block;
         width: $hamburger-size; 
         height: $hamburger-size;
+        text-indent: $hamburger-size;
+        overflow: hidden;
         background-color: blue;
 
         position: absolute;
-        top: 0;
         right: 0;
+        top: 0;
+        margin: 0; padding: 0;
     }
 
     ul {
