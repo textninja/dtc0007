@@ -12,6 +12,8 @@ nav {
         text-indent: $hamburger-size * 2;
         overflow: hidden;
 
+        outline: none !important;
+
         position: absolute;
         right: 10px;
         top: 15px;
@@ -47,13 +49,10 @@ nav {
         padding: 10px;
         box-sizing: border-box;
 
-        h2 {
-        }
-
         ul {
             display: block;
             position: static;
-            font-size: 24pt;
+            font-size: 16pt;
             color: white;
             padding: 50px;
             padding-top: 0;
@@ -67,9 +66,9 @@ nav {
 
         + #close-nav {
             position: absolute;
-            top: 15px; right: 10px;
-            width: $hamburger-size;
-            height: $hamburger-size;
+            top: 0px; right: 0px;
+            width: $hamburger-size * 2;
+            height: $hamburger-size * 2;
             background-color: transparent;
         }
     }    
