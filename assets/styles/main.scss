@@ -41,7 +41,13 @@ p {
 }
 
 a {
-    color: var(--fg);
+    color: white;
+}
+
+article a {
+    background-color: #313144;
+    color: white;
+    text-decoration: none;
 }
 
 #site-logo {
