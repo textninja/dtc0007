@@ -1,5 +1,4 @@
 @mixin fancy-first {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     display: block;
     font-size: 4.5em;
     float: left;
@@ -20,11 +19,9 @@ body > header {
     margin-top: 5em;
     font-size: 1em;
     color: #7b7e87;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 h1 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 22pt;
     max-width: 250px;
     line-height: 1.3em;
@@ -37,7 +34,6 @@ h1 {
     font-size: 1em;
     margin-top: 2em;
     margin-bottom: 1em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 article {
@@ -48,7 +44,6 @@ article {
     h2 {
         font-size: 1em;
         margin-top: 1.4em;
-        font-family:  Georgia, 'Times New Roman', Times, serif;
         color: white;
     }
     
