@@ -42,4 +42,12 @@ a {
     color: var(--fg);
 }
 
+#site-logo {
+    color: white;
+    position: absolute; 
+    top: 8px; left: 15px;
+    font-size: 18pt;
+    font-family: monospace;
+}
+
 @import "post";

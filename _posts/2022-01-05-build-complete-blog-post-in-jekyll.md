@@ -23,3 +23,8 @@ enhancements to posts and templates, but ended up using CSS exclusively. I'd
 never built a CSS-only hamburger menu before, and while I'd still prefer
 JavaScript in any serious context, :focus-within and :focus give me all the
 tools I need to make things work sans-scripting.
+
+I think some modest parallax would be a nice touch, and I need to pick a
+highlight color for links, but the design is coming along just fine. This time
+around, I steered clear of web fonts, because I want to keep the load time
+snappy.
