@@ -1,20 +1,36 @@
 nav {
     display: block;
 
+    margin-bottom: -20px;
+
     $hamburger-size: 20px;
 
     h2 {
         display: block;
-        width: $hamburger-size; 
+        width: $hamburger-size * 1.2; 
         height: $hamburger-size;
-        text-indent: $hamburger-size;
+        text-indent: $hamburger-size * 2;
         overflow: hidden;
-        background-color: blue;
 
         position: absolute;
-        right: 0;
-        top: 0;
+        right: 10px;
+        top: 10px;
         margin: 0; padding: 0;
+
+        &::before,
+        &::after {
+            content: " ";
+            height: 3px;
+            border-radius: 2px;
+            background-color: white;
+            position: absolute;
+            top: 5px; left: 0; right: 0;
+        }
+
+        &::after {
+            top: auto;
+            bottom: 5px;
+        }
     }
 
     ul {

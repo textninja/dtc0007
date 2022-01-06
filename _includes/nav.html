@@ -1,9 +1,9 @@
-<nav>
+<nav tabindex="-1">
 <h2 tabindex="1">Menu</h2>
 <ul>
 {% for link in site.data.nav %}
-    <li><a href="{{link.href}}">{{link.name}}</a></li>
+    <li><a tabindex="2" href="{{link.href}}">{{link.name}}</a></li>
 {% endfor %}
 </ul>
 </nav>
-<div id="close-nav" tabindex="-1"></div>
+<div id="close-nav" tabindex="3"></div>

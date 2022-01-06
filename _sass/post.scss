@@ -1,6 +1,5 @@
 body > header {
     height: 20px;
-    background-color: green;
 }
 
 .challenge-info {
@@ -25,10 +24,21 @@ h1 {
     margin-bottom: 2em;
 }
 
-.post-info + p {
-    font-size: 1.2em;
-}
-
 article {
     color: var(--dim);
+
+    p {
+        line-height: 1.4em;
+
+        &::first-letter {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            display: block;
+            font-size: 2.5em;
+            float: left;
+            margin-top: 0.2em;
+            margin-bottom: 0;
+            margin-right: 0.1em;
+            padding: 0;
+        }
+    }    
 }
